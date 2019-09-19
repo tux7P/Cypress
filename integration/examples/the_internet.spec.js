@@ -1,6 +1,6 @@
 /// <reference types="Cypress" />
 
-it('should navigate A/B Test Variation', () => {
+it('Displays navigate a/b test variation', () => {
     cy.visit('https://the-internet.herokuapp.com')
     
     cy.get('.heading').should('have.text', 'Welcome to the-internet')
@@ -12,7 +12,7 @@ it('should navigate A/B Test Variation', () => {
     cy.get('h3').should('have.text', 'A/B Test Variation 1')
 })
 
-it('should Add/Remove Elements', () => {
+it('Displays add/remove elements title', () => {
     cy.visit('https://the-internet.herokuapp.com')
     
     cy.get('.heading').should('have.text', 'Welcome to the-internet')
